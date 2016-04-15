@@ -1,7 +1,7 @@
 # iOS Digest #1
 
 ## Coding
-** [Codility](https://codility.com/)
+**[Codility](https://codility.com/)
 The website to challenge your low level coding skill 
 
 Some solutions for Codility in Swift. But try to solve a lesson before you look at the solution
