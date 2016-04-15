@@ -1,8 +1,6 @@
 # iOS Digest #1
-============
 
 ## Coding
-============
 ### [Codility] https://codility.com/
 The website to challenge your low level coding skill 
 
@@ -28,19 +26,16 @@ https://www.natashatherobot.com/using-swift-extensions
 http://swiftandpainless.com/the-best-table-view-controller-mar-2016-edition
 
 ## Design
-============
 **A Simple Web Developer’s Guide To Color**
 https://www.smashingmagazine.com/2016/04/web-developer-guide-color
 
 ## Work
-============
 **TopTal**: https://toptal.com/
 "Toptal is an exclusive network of the top freelance software developers and designers in the world"
 They are known for not easy and not super fast onboarding process for freelancers.
 They test your ability to solve algorithmic coding tasks (See Codility.com) and give you a test project you have to finish in about 40 hours or less.
 
 ## Other
-============
 SpaceX landed the first stage booster on the dron ship for the first time. 
 https://www.youtube.com/watch?v=sYmQQn_ZSys
 
