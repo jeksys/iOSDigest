@@ -5,7 +5,7 @@ iOS Digest #2
 [Codility](https://codility.com/) - challenge your low level coding skill 
 
 Some solutions for Codility in Swift. But try to solve a lesson before you look at the solution
-(Codility-Swift)[https://github.com/arietis/codility-swift]
+[Codility-Swift](https://github.com/arietis/codility-swift)
 
 **Map, Filters, Reduce in Swift** 
 https://www.weheartswift.com/higher-order-functions-map-filter-reduce-and-more/
