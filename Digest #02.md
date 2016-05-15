@@ -10,7 +10,7 @@ Building your app remember there basic rules:
 - [Don't Repeat Yourself](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
 - [Single responsibility principle](https://en.m.wikipedia.org/wiki/Single_responsibility_principle)
 
-!!!Large C style classes stink.!!! 
+!!!Large C style classes stink!!! 
 
 ## Open Source
 **Swift modules** in coming Swift 3.0 are going to be huge. 
@@ -32,10 +32,9 @@ I wonder if there any implementations
 ## Work
 [Hired](https://www.hired.com) - find your new job with the 
 
-## Other
-
 ## Apps
-[Turo] Peer-to-peer car sharing is now in Canada
+[Turo](https://www.turo.com) Peer-to-peer car sharing is now in Canada
+
 [Kite](https://kite.com) is your AI pair programmer 
 
 ##Tools 
@@ -44,6 +43,7 @@ defaults write com.apple.dt.Xcode ShowBuildOperationDuration -bool YES
 restart Xcode
 
 [TextWrangler - better text editor](itunes.apple.com/ru/app/textwrangler/id404010395?mt=12)
+
 [GetPostman - REST API client](https://www.getpostman.com/)
 
 
