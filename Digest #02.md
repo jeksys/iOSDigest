@@ -17,7 +17,7 @@ Building your app remember there basic rules:
 Check the list of existing modules at [Swift Modules](https://swiftmodules.com/about)
 
 **JVFloatLabeledTextField**
-[JVFloatLabeledTextField](https://github.com/jverdi/JVFloatLabeledTextField) is the implementation a UX pattern that has come to be known the "Float Label Pattern".
+[JVFloatLabeledTextField](https://github.com/jverdi/JVFloatLabeledTextField) is the implementation a UX pattern that has come to be known the "Float Label Pattern"
 
 [FBMemoryProfiler](https://github.com/facebook/FBMemoryProfiler) is an iOS library providing developer tools for browsing objects in memory over time
 
@@ -30,20 +30,20 @@ I wonder if there any implementations
 (DESIGNING AN ALTERNATIVE TO THE HAMBURGER MENU)[http://scottjensen.design/2016/04/designing-an-alternative-to-the-hamburger-menu]
 
 ## Work
-[Hired](https://www.hired.com) - find your new job with the 
+[Hired](https://www.hired.com) - find your new job with the top companies (not available in Vancouver)
 
 ## Apps
-[Turo](https://www.turo.com) Peer-to-peer car sharing is now in Canada
+[Turo](https://www.turo.com) - Peer-to-peer car sharing is now in Canada
 
 [Kite](https://kite.com) is your AI pair programmer 
 
-##Tools 
+## Tools 
 **Show build duration**
 defaults write com.apple.dt.Xcode ShowBuildOperationDuration -bool YES
 restart Xcode
 
-[TextWrangler - better text editor](itunes.apple.com/ru/app/textwrangler/id404010395?mt=12)
+[TextWrangler](itunes.apple.com/ru/app/textwrangler/id404010395?mt=12) - better text editor
 
-[GetPostman - REST API client](https://www.getpostman.com/)
+[GetPostman](https://www.getpostman.com/) - REST API client
 
 
