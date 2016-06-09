@@ -9,7 +9,7 @@ iOS Digest #3 - 05/15/2016
 [Singletons](https://thatthinginswift.com/singletons/)
 The propert way to write singleton in Swift - one line singletone:
 ```Swift
-class IOSDigest {
+    class IOSDigest {
     static let sharedInstance = IOSDigest()
 }
 ```
@@ -52,9 +52,9 @@ You code will evlove.
 **Networking**
 [Simple HTTP Networking](https://github.com/3lvis/Networking)
 ```Swift
-let networking = Networking(baseURL: "https://api-news.layervault.com/api/v2")
-networking.GET("/stories") { JSON, error in
-    if let JSON = JSON {
+    let networking = Networking(baseURL: "https://api-news.layervault.com/api/v2")
+    networking.GET("/stories") { JSON, error in
+        if let JSON = JSON {
         // Stories JSON: https://api-news.layervault.com/api/v2/stories
     }
 }
@@ -63,17 +63,7 @@ networking.GET("/stories") { JSON, error in
 **Theme manager**
 [https://github.com/jiecao-fm/SwiftTheme](https://github.com/jiecao-fm/SwiftTheme)
 
-## Design
-
-## Work
-
 ## Other
 **Android**
 [Instant Apps](https://developer.android.com/topic/instant-apps/index.html)
 Apple please make instant apps for iOS, it's so cool
-
-## Apps
-
-## Tools 
-
-
