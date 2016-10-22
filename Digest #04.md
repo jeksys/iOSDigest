@@ -2,6 +2,9 @@ iOS Digest #4 - 06/08/2016
 =======================
 
 ## Coding
+[UICollectionView: Unjustly Maligned](https://ashfurrow.com/blog/uicollectionview-unjustly-maligned/)
+Some old/fresh view on UICollectionView by Ash Furrow
+[Stick cells example](https://github.com/artsy/eigen/pull/1411/files)
 
 ## Open Source
 **An implemantation of "Float Label Pattern" of Material Design in Swift programming language**
@@ -27,5 +30,8 @@ FlatBuffers is an efficient cross platform serialization library for C++, C#, C,
 ## Apps
 
 ## Tools 
+[Knuff App](https://github.com/KnuffApp/Knuff)
+An easy way to send push notification from your iOS or MacOS devices 
 
-
+## Other
+(Racing FPV quadrocopter)[https://geektimes.ru/post/277774/]

@@ -8,6 +8,9 @@
 
 /* Begin PBXFileReference section */
 		D507A1F51CE8DB2E00F36A0E /* Digest #03.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Digest #03.md"; sourceTree = "<group>"; };
+		D51EFF181DBBEA1E0060284D /* Job Interview - iOS.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Job Interview - iOS.md"; sourceTree = "<group>"; };
+		D51EFF191DBBEA2D0060284D /* Job Interview - general.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Job Interview - general.md"; sourceTree = "<group>"; };
+		D58995281D2CA72100DE94AC /* Digest #05 WWDC.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Digest #05 WWDC.md"; sourceTree = "<group>"; };
 		D59512541D08A2D9001FE93E /* Digest #04.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Digest #04.md"; sourceTree = "<group>"; };
 		D5A3A7871CC13215000FC86B /* Digest #01.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Digest #01.md"; sourceTree = "<group>"; };
 		D5A3A7881CC13236000FC86B /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
@@ -27,6 +30,9 @@
 				D5A3A78A1CC14526000FC86B /* Digest #02.md */,
 				D507A1F51CE8DB2E00F36A0E /* Digest #03.md */,
 				D59512541D08A2D9001FE93E /* Digest #04.md */,
+				D58995281D2CA72100DE94AC /* Digest #05 WWDC.md */,
+				D51EFF191DBBEA2D0060284D /* Job Interview - general.md */,
+				D51EFF181DBBEA1E0060284D /* Job Interview - iOS.md */,
 			);
 			sourceTree = "<group>";
 		};
