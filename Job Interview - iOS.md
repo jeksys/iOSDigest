@@ -9,16 +9,16 @@ iOS Digest - iOS Job interview
 
 [Design Patterns in Swift](https://github.com/ochococo/Design-Patterns-In-Swift)
 1. Creational patterns
-⋅⋅* Builder vs telescoping constructor anti-pattern
-⋅⋅* Factory
-⋅⋅* Lazy initialization
-⋅⋅* Object pool
-⋅⋅* Prototype
-⋅⋅* Singleton
+* Builder vs telescoping constructor anti-pattern
+* Factory
+* Lazy initialization
+* Object pool
+* Prototype
+* Singleton
 
 2. Structural patterns
-⋅⋅* Adapter pattern
-⋅⋅* Composite
+* Adapter pattern
+* Composite
 
 3. Behavioral patterns
 ⋅⋅* Chain of responsibility
