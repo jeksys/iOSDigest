@@ -9,7 +9,7 @@ iOS Digest - iOS Job interview
 
 [Design Patterns in Swift](https://github.com/ochococo/Design-Patterns-In-Swift)
 
-1.Creational patterns
+1. Creational patterns
 * Builder vs telescoping constructor anti-pattern
 * Factory
 * Lazy initialization
@@ -17,11 +17,11 @@ iOS Digest - iOS Job interview
 * Prototype
 * Singleton
 
-2.Structural patterns
+2. Structural patterns
 * Adapter pattern
 * Composite
 
-3.Behavioral patterns
+3. Behavioral patterns
 * Chain of responsibility
 * Command
 * Delegation
@@ -32,6 +32,7 @@ iOS Digest - iOS Job interview
 4. Architectural design pattern
 * MVC
 * [MVVM](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel): Model, View, ViewModel, DataBinder
+
 
 5. Concurrency patterns
 * Lock
