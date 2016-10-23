@@ -17,6 +17,7 @@ iOS Digest - iOS Job interview
 ⋅⋅* Singleton
 
 ⋅⋅2 Structural patterns
+⋅⋅* Adapter pattern
 ⋅⋅* Composite
 
 ⋅⋅3 Behavioral patterns
@@ -42,11 +43,51 @@ Value types in swift (primitives, array, string, dictionary, struct, enum, and t
 ⋅⋅* What are Optionals?
 #### A variable that can indicate whether they hold a value or not. Optionals will be "nil" if they don't have a value.
 
+⋅⋅* How would you reimplement Optional type?
+[How you would implement Optionals in Swift using Swift](https://github.com/jquave/JOptional/blob/Part1/JOptional/main.swift)
+[Optional](https://github.com/apple/swift/blob/master/stdlib/public/core/Optional.swift)
+
+enum MyOptional<T> {
+    case None
+    case Some(T)
+
+    init(_ value: T) {
+        self = .Some(value)
+    }
+
+    init() {
+        self = .None
+    }
+
+    func unwrap() -> Any {
+        switch self {
+            case .Some(let x):
+            return x
+        default:
+            assert(true, "Unexpectedly found nil while unwrapping an JOptional value")
+        }
+        return JOptional.None
+    }
+
+    postfix operator >! {}
+    postfix func >! <T>(value: JOptional<T> ) -> Any {
+        return value.unwrap()
+    }
+
+}
+
+var optionalString = MyOptional("A String!")
+var nilString = MyOptional()
+var a = optionalString.unwrap()
+
 ⋅⋅* What is a protocol?
 #### A protocol will tell the class, struct, or enum which adopts it what methods and properties it must implement.
 
 What is the delegation?
 #### Delegation is a design pattern that enables a class or structure to hand off (or delegate) some of its responsibilities to an instance of another type
+
+Mention what is the characteristics of Switch in Swift?
+#### any kind of data, you don’t need to explicitly break out the switch, statement must be exhaustive
 
 NSLock under the hood
 Swift. Protocols and classes
@@ -63,7 +104,8 @@ Swift. How to implement Optionals
 
 
 ## To practice 
-- [ ] [Rebuild] (https://github.com/ochococo/Design-Patterns-In-Swift)
+- [ ] [Rebuild] (https://github.com/ochococo/Design-Patterns-In-Swift) http://jangorman.github.io/blog/2014/12/01/design-patterns-in-swift-adapter-pattern/
+- [ ] Rebuild [Swift solutions for Codility](https://github.com/arietis/codility-swift)
 - [ ] [Build in Swift] (https://github.com/ochococo/Design-Patterns-In-Swift)
 
 
