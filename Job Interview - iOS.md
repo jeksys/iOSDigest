@@ -7,7 +7,7 @@ iOS Digest - iOS Job interview
 ## Design patterns
 [Software design pattern](https://en.wikipedia.org/wiki/Software_design_pattern#Classification_and_list)
 
-[Design Patterns in Swift](https://github.com/ochococo/Design-Patterns-In-Swift)
+## 1.[Design Patterns in Swift](https://github.com/ochococo/Design-Patterns-In-Swift)
 ⋅⋅1 Creational patterns
 ⋅⋅* Builder vs telescoping constructor anti-pattern
 ⋅⋅* Factory
