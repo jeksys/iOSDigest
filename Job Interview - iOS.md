@@ -74,9 +74,7 @@ Precondition performs the check even in optimized builds. This makes it a much b
 
 A variable that can indicate whether they hold a value or not. Optionals will be "nil" if they don't have a value.
 
-* Swift.How would you reimplement Optional type?
-
-[How you would implement Optionals in Swift using Swift](https://github.com/jquave/JOptional/blob/Part1/JOptional/main.swift)
+* Swift.[How you would implement Optionals in Swift using Swift](https://github.com/jquave/JOptional/blob/Part1/JOptional/main.swift)
 
 [Optional](https://github.com/apple/swift/blob/master/stdlib/public/core/Optional.swift)
 
