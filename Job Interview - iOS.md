@@ -111,21 +111,20 @@ var optionalString = MyOptional("A String!")
 var nilString = MyOptional()
 var a = optionalString.unwrap()
 ```
-
 ⋅⋅* What is a protocol?
-#### A protocol will tell the class, struct, or enum which adopts it what methods and properties it must implement.
+A protocol will tell the class, struct, or enum which adopts it what methods and properties it must implement.
 
-What is the delegation?
-#### Delegation is a design pattern that enables a class or structure to hand off (or delegate) some of its responsibilities to an instance of another type
+⋅⋅* What is the delegation?
+Delegation is a design pattern that enables a class or structure to hand off (or delegate) some of its responsibilities to an instance of another type
 
-Mention what is the characteristics of Switch in Swift?
-#### any kind of data, you don’t need to explicitly break out the switch, statement must be exhaustive
+⋅⋅* What is the characteristics of Switch in Swift?
+Any kind of data, you don’t need to explicitly break out the switch, statement must be exhaustive
 
-[NSLock vs @synchronized vs dispatch_semaphore_XXX](http://stackoverflow.com/questions/1215330/how-does-synchronized-lock-unlock-in-objective-c/1215541#1215541)
-Swift. Protocols and classes
-Swift. Trailing clouser
+⋅⋅* [NSLock vs @synchronized vs dispatch_semaphore_XXX](http://stackoverflow.com/questions/1215330/how-does-synchronized-lock-unlock-in-objective-c/1215541#1215541)
+Warning: The NSLock class uses POSIX threads to implement its locking behavior. When sending an unlock message to an NSLock object, you must be sure that message is sent from the same thread that sent the initial lock message. Unlocking a lock from a different thread can result in undefined behavior.
 
-⋅⋅* How would you reimplement Optional type?
+⋅⋅* Swift. Protocols and classes
+⋅⋅* Swift. Trailing clouser
 
 [](https://www.toptal.com/ios/interview-questions)
 [](https://www.toptal.com/swift/interview-questions)
