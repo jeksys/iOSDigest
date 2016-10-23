@@ -140,8 +140,10 @@ Warning: The NSLock class uses POSIX threads to implement its locking behavior. 
 ## Competency matrix for iOS developer
 
 ## To practice 
-- [ ] [Rebuild] (https://github.com/ochococo/Design-Patterns-In-Swift) http://jangorman.github.io/blog/2014/12/01/design-patterns-in-swift-adapter-pattern/
+- [ ] Rebuild [Design Patterns In Swift] (https://github.com/ochococo/Design-Patterns-In-Swift) 
+- [ ] Rebuild [adapter-pattern](http://jangorman.github.io/blog/2014/12/01/design-patterns-in-swift-adapter-pattern/)
 - [ ] Rebuild [Swift solutions for Codility](https://github.com/arietis/codility-swift)
 - [ ] [Build in Swift] (https://github.com/ochococo/Design-Patterns-In-Swift)
+- [ ] Build in Swift Fraction and Matrix library
 
 
