@@ -21,21 +21,21 @@ iOS Digest - iOS Job interview
 * Composite
 
 3. Behavioral patterns
-⋅⋅* Chain of responsibility
-⋅⋅* Command
-⋅⋅* Delegation
-⋅⋅* Iterator
-⋅⋅* Observer or Publish/subscribe
-⋅⋅* State
+* Chain of responsibility
+* Command
+* Delegation
+* Iterator
+* Observer or Publish/subscribe
+* State
 
 4. Architectural design pattern
-⋅⋅* MVC
-⋅⋅* [MVVM](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel): Model, View, ViewModel, DataBinder
+* MVC
+* [MVVM](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel): Model, View, ViewModel, DataBinder
 
 5. Concurrency patterns
-⋅⋅* Lock
-⋅⋅* Read-write lock
-⋅⋅* Thread pool
+* Lock
+* Read-write lock
+* Thread pool
 
 ## iOS Specific interview questions
 
