@@ -17,6 +17,7 @@
 		D5A3A7891CC1402E000FC86B /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		D5A3A78A1CC14526000FC86B /* Digest #02.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Digest #02.md"; sourceTree = "<group>"; };
 		D5A3A78B1CC14535000FC86B /* Digest template.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Digest template.md"; sourceTree = "<group>"; };
+		D5EDF3A01DBD66EF003DC619 /* Digest #00 my apps.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Digest #00 my apps.md"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -26,6 +27,7 @@
 				D5A3A7891CC1402E000FC86B /* LICENSE */,
 				D5A3A7881CC13236000FC86B /* Readme.md */,
 				D5A3A78B1CC14535000FC86B /* Digest template.md */,
+				D5EDF3A01DBD66EF003DC619 /* Digest #00 my apps.md */,
 				D5A3A7871CC13215000FC86B /* Digest #01.md */,
 				D5A3A78A1CC14526000FC86B /* Digest #02.md */,
 				D507A1F51CE8DB2E00F36A0E /* Digest #03.md */,

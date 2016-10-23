@@ -1,42 +1,28 @@
-iOS Digest #1
+My iOS apps 2010-2016
 =======================
 
-## Coding
-[Codility](https://codility.com/) - challenge your low level coding skill 
+## Arrowtop - 2016
+[Arrowtop](https://itunes.apple.com/ca/app/arrowtop/id969312617?mt=8)
+ArrowTop is a social network for creating trends with the world. With ArrowTop, you can create or join in Trends. Post your photos and videos to boost your way to the top.
 
-Some solutions for Codility in Swift. But try to solve a lesson before you look at the solution
-[Codility-Swift](https://github.com/arietis/codility-swift)
+Role: Added new featuers and bug fixes
+Tags: Swift, Cocoaposd, AWS, Almofire, RESTAPI, Social network 
 
-**Map, Filters, Reduce in Swift** 
-https://www.weheartswift.com/higher-order-functions-map-filter-reduce-and-more/
+## RSA - 2014 - 2016
+###Via app
+###Secret Notes app
 
-**Firebase** - introduction (Russian)
-https://habrahabr.ru/post/277941/
+## Burrow - 2015
+Finding an apartment or house in Greater Toronto Area is now easier than finding a date on a Friday night! Simply pull out your phone and swipe to find your next home. Innovative and fun location based search. Always know what's avaliable for rent or sale around you. Craigslist, Kijiji and Realtor are tools of the past. BurrowSwipe has more listings than MLS and updated every hour so you'll never miss out on you dream home.
 
-**Cross platform frameworks for iOS, tvOS, watchOS**
-http://basememara.com/creating-cross-platform-swift-frameworks-ios-watchos-tvos-via-carthage-cocoapods/
+## Five minute journal - 2014
 
-**MVC + networking**
-https://realm.io/news/slug-marcus-zarra-exploring-mvcn-swift/
+## Rogers 2013-2014
+### Sportsnet 2014
+### Today's parents 2014
+### FXNow 2013
+### Breakfast television 2013
 
-**Using Swift extensions**
-https://www.natashatherobot.com/using-swift-extensions
-
-**Best TableViewController**
-http://swiftandpainless.com/the-best-table-view-controller-mar-2016-edition
-
-## Design
-**A Simple Web Developer’s Guide To Color**
-https://www.smashingmagazine.com/2016/04/web-developer-guide-color
-
-## Work
-**TopTal**: https://toptal.com/
-"Toptal is an exclusive network of the top freelance software developers and designers in the world"
-They are known for not easy and not super fast onboarding process for freelancers.
-They test your ability to solve algorithmic coding tasks (See Codility.com) and give you a test project you have to finish in about 40 hours or less.
-
-## Other
-SpaceX landed the first stage booster on the dron ship for the first time. 
-https://www.youtube.com/watch?v=sYmQQn_ZSys
-
-
+## Triggerfox 2013
+## IMG Group. Piers 2012
+## Zurapps. 2010-2012

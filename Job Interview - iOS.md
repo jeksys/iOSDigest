@@ -30,7 +30,7 @@ iOS Digest - iOS Job interview
 
 ⋅⋅4 Architectural design pattern
 ⋅⋅* MVC
-⋅⋅* [MVVM](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel) 
+⋅⋅* [MVVM](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel): Model, View, ViewModel, DataBinder
 
 ⋅⋅5 Concurrency patterns
 ⋅⋅* Lock
@@ -38,15 +38,46 @@ iOS Digest - iOS Job interview
 ⋅⋅* Thread pool
 
 ## iOS Specific interview questions
-Value types in swift (primitives, array, string, dictionary, struct, enum, and tuple) [Value and Reference Types](https://developer.apple.com/swift/blog/?id=10)
 
-⋅⋅* What are Optionals?
-#### A variable that can indicate whether they hold a value or not. Optionals will be "nil" if they don't have a value.
+⋅⋅* ObjC.
 
-⋅⋅* How would you reimplement Optional type?
+⋅⋅* Weak vs unowned vs unsafe_unretained references
+
+⋅⋅* @autoclosure?
+[Swift Asserts by Mike Ash](https://www.mikeash.com/pyblog/friday-qa-2016-03-04-swift-asserts.html)
+The @autoclosure argument can be applied to an argument of function type which takes no parameters. At the call site, the caller provides an expression for that argument. This expression is then implicitly wrapped in a function, and that function is passed in as the parameter
+
+```Swift
+func f(@autoclosure value: () -> Int) {
+print(value())
+}
+
+f(42)
+```
+
+```Swift
+func f(value: () -> Int) {
+print(value())
+}
+
+f({ 42 })
+```
+
+⋅⋅* Swift. Assert vs precondition
+Assert only functions in non-optimized builds. When optimizations are enabled, the entire thing is compiled out.
+Precondition performs the check even in optimized builds. This makes it a much better choice for most assertion checks, as long as the check is sufficiently fast.
+[Swift Asserts by Mike Ash](https://www.mikeash.com/pyblog/friday-qa-2016-03-04-swift-asserts.html)
+
+⋅⋅* Swift.Value types in swift (primitives, array, string, dictionary, struct, enum, and tuple) [Value and Reference Types](https://developer.apple.com/swift/blog/?id=10)
+
+⋅⋅* Swift.What are Optionals?
+A variable that can indicate whether they hold a value or not. Optionals will be "nil" if they don't have a value.
+
+⋅⋅* Swift.How would you reimplement Optional type?
 [How you would implement Optionals in Swift using Swift](https://github.com/jquave/JOptional/blob/Part1/JOptional/main.swift)
 [Optional](https://github.com/apple/swift/blob/master/stdlib/public/core/Optional.swift)
 
+```Swift
 enum MyOptional<T> {
     case None
     case Some(T)
@@ -79,6 +110,7 @@ enum MyOptional<T> {
 var optionalString = MyOptional("A String!")
 var nilString = MyOptional()
 var a = optionalString.unwrap()
+```
 
 ⋅⋅* What is a protocol?
 #### A protocol will tell the class, struct, or enum which adopts it what methods and properties it must implement.
@@ -89,9 +121,11 @@ What is the delegation?
 Mention what is the characteristics of Switch in Swift?
 #### any kind of data, you don’t need to explicitly break out the switch, statement must be exhaustive
 
-NSLock under the hood
+[NSLock vs @synchronized vs dispatch_semaphore_XXX](http://stackoverflow.com/questions/1215330/how-does-synchronized-lock-unlock-in-objective-c/1215541#1215541)
 Swift. Protocols and classes
-Swift. How to implement Optionals
+Swift. Trailing clouser
+
+⋅⋅* How would you reimplement Optional type?
 
 [](https://www.toptal.com/ios/interview-questions)
 [](https://www.toptal.com/swift/interview-questions)
@@ -101,7 +135,6 @@ Swift. How to implement Optionals
 [](https://www.raywenderlich.com/112027/reference-value-types-in-swift-part-1)
 
 ## Competency matrix for iOS developer
-
 
 ## To practice 
 - [ ] [Rebuild] (https://github.com/ochococo/Design-Patterns-In-Swift) http://jangorman.github.io/blog/2014/12/01/design-patterns-in-swift-adapter-pattern/

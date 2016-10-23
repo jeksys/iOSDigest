@@ -6,9 +6,11 @@ iOS Digest - iOS Job interview
 
 ### Algorithms and BigO
 [Big-O Complexity Chart](http://bigocheatsheet.com/)
-[Codility for Programmers](https://codility.com/programmers/lessons/)
 [Data Science Tutorials](https://www.topcoder.com/community/data-science/data-science-tutorials/)
 [A curated list of awesome places to learn and/or practice algorithms](https://github.com/tayllan/awesome-algorithms)
+
+[hackerrank](https://www.hackerrank.com)
+[Codility for Programmers](https://codility.com/programmers/lessons/)
 
 ### Design patterns
 [Software design pattern](https://en.wikipedia.org/wiki/Software_design_pattern#Classification_and_list)
@@ -24,6 +26,8 @@ iOS Digest - iOS Job interview
 ## Usefull links
 [Multi-month study plan for going from web developer to Google software engineer](https://github.com/jwasham/google-interview-university)
 [Google Interview Questions](https://gist.github.com/KWMalik/3734578)
+
+[Implementation of zeroing weak reference](https://www.mikeash.com/pyblog/introducing-mazeroingweakref.html)
 
 ## General Questions to expect
 
