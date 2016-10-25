@@ -18,6 +18,7 @@
 		D5A3A78A1CC14526000FC86B /* Digest #02.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Digest #02.md"; sourceTree = "<group>"; };
 		D5A3A78B1CC14535000FC86B /* Digest template.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Digest template.md"; sourceTree = "<group>"; };
 		D5EDF3A01DBD66EF003DC619 /* Digest #00 my apps.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Digest #00 my apps.md"; sourceTree = "<group>"; };
+		D5EDF3A11DBE512A003DC619 /* Swift3BlockSyntax.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Swift3BlockSyntax.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -35,6 +36,7 @@
 				D58995281D2CA72100DE94AC /* Digest #05 WWDC.md */,
 				D51EFF191DBBEA2D0060284D /* Job Interview - general.md */,
 				D51EFF181DBBEA1E0060284D /* Job Interview - iOS.md */,
+				D5EDF3A11DBE512A003DC619 /* Swift3BlockSyntax.md */,
 			);
 			sourceTree = "<group>";
 		};

@@ -1,6 +1,12 @@
 iOS Digest - iOS Job interview
 =======================
 
+The reason to create this document is a failure. My personal one. I badly failed one interview. So I decided to share key knowledge you want to have as an experienced iOS developer using Swift.
+Not knowing things listed below doesn't make you a bad developer, but it definetely makes you a better one. 
+If you alredy an experienced developer it will take you 30 minites to refine your knowledge about Swift basics.
+If you are a junior one spend a little more time to not only memorize (it won't help), but to understand each and every item.
+
+
 ## Swift
 [The Swift Programming Language (Swift 3)](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/Enumerations.html#//apple_ref/doc/uid/TP40014097-CH12-ID145)
 
@@ -104,7 +110,6 @@ enum MyOptional<T> {
     postfix func >! <T>(value: JOptional<T> ) -> Any {
         return value.unwrap()
     }
-
 }
 
 var optionalString = MyOptional("A String!")
@@ -129,6 +134,26 @@ Warning: The NSLock class uses POSIX threads to implement its locking behavior. 
 
 * Swift. Protocols and classes
 * Swift. Trailing clouser
+* Swift. map filter reduce flatMap
+* Swift Array vs Set vs Dictionary vs Enum
+
+* Swift. Access Control
+No entity can be defined in terms of another entity that has a lower (more restrictive) access level.
+Module. Open & Public. Internal. File-private. Private. @testable
+Default - Internal
+Mark the import declaration for a product module with @testable so a unit test target can access any internal entity.
+
+```Swift
+public class SomePublicClass {}
+internal class SomeInternalClass {}
+fileprivate class SomeFilePrivateClass {}
+private class SomePrivateClass {}
+
+public var somePublicVariable = 0
+internal let someInternalConstant = 0
+fileprivate func someFilePrivateFunction() {}
+private func somePrivateFunction() {}
+```
 
 [](https://www.toptal.com/ios/interview-questions)
 [](https://www.toptal.com/swift/interview-questions)
@@ -144,5 +169,8 @@ Warning: The NSLock class uses POSIX threads to implement its locking behavior. 
 - [ ] Rebuild [adapter-pattern](http://jangorman.github.io/blog/2014/12/01/design-patterns-in-swift-adapter-pattern/)
 - [ ] Rebuild [Swift solutions for Codility](https://github.com/arietis/codility-swift)
 - [ ] Build in Swift Fraction and Matrix library
+- [ ] Rebuild https://github.com/chasseurmic/swiftblocksyntax for Swift 3
++ Trailing clouser
+
 
 
