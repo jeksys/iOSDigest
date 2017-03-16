@@ -39,6 +39,9 @@ If you are a junior one spend a little more time to not only memorize (it won't 
 * MVC
 * [MVVM](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel): Model, View, ViewModel, DataBinder
 
+Negative side of a singletone? 
+    One of the negatives of singletons is not being able to tear them down. You cannot reset a singleton, because that defies the point.
+
 5.Concurrency patterns
 * Lock
 * Read-write lock
