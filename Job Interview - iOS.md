@@ -104,13 +104,13 @@ enum MyOptional<T> {
             case .Some(let x):
             return x
         default:
-            assert(true, "Unexpectedly found nil while unwrapping an JOptional value")
+            assert(true, "Unexpectedly found nil while unwrapping an MyOptional value")
         }
-        return JOptional.None
+        return MyOptional.None
     }
 
     postfix operator >! {}
-    postfix func >! <T>(value: JOptional<T> ) -> Any {
+    postfix func >! <T>(value: MyOptional<T> ) -> Any {
         return value.unwrap()
     }
 }
